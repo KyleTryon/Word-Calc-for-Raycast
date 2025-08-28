@@ -296,7 +296,7 @@ function WordAnalysisListView({
         <List.Item
           title="Word Count"
           subtitle="Total words in text"
-          icon={{ source: Icon.HashSymbol, tintColor: Color.Purple }}
+          icon={{ source: Icon.Hashtag, tintColor: Color.Purple }}
           accessories={[{ tag: { value: analysis.wordCount.toLocaleString(), color: Color.Purple }, icon: Icon.Text }]}
           actions={
             <ActionPanel>
